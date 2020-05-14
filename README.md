@@ -20,10 +20,20 @@ contoh pada kasus ini
 
 Jika ingin menjalankan salah satu testcase maka tuliskan
 > robot [nama file].robot 
-lalu enter
+
+Contoh
+> C:\Users\win7>cd C:\Users\win7\git\twitterautomation\twitter\Testcase
+
+> C:\Users\win7\git\twitterautomation\twitter\Testcase>robot login.robot
+
 
 jika ingin mennjalankan semua file robot yang ada di folder Testcase maka tuliskan
 > robot *.robot
+
+Contoh
+> C:\Users\win7>cd C:\Users\win7\git\twitterautomation\twitter\Testcase
+
+> C:\Users\win7\git\twitterautomation\twitter\Testcase>robot *.robot
 
 setelah menjalankan test akan menghasilkan Output File, Log File and Report File
 
