@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.7 on win32)" generated="20200514 11:28:38.292" rpa="false">
+<suite id="s1" name="Twitter" source="C:\Users\win7\eclipse-workspace\twitter">
+<suite id="s1-s1" name="Testcase" source="C:\Users\win7\eclipse-workspace\twitter\Testcase">
+<suite id="s1-s1-s1" name="Komentar" source="C:\Users\win7\eclipse-workspace\twitter\Testcase\komentar.robot">
+<test id="s1-s1-s1-t1" name="cobakomentar">
+<kw name="Login" library="resources">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200514 11:28:38.849" level="INFO">Opening browser 'Firefox' to base url 'https://twitter.com/explore'.</msg>
+<msg timestamp="20200514 11:28:38.870" level="INFO">Firefox driver log is always forced to to: C:\Users\win7\eclipse-workspace\twitter\geckodriver-79.log</msg>
+<status status="PASS" starttime="20200514 11:28:38.848" endtime="20200514 11:28:59.575"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div/div[2]/header/div[2]/div[1]/div/div[2]/div[1]/div[1]/a/div</arg>
+</arguments>
+<msg timestamp="20200514 11:28:59.578" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/div[2]/header/div[2]/div[1]/div/div[2]/div[1]/div[1]/a/div'.</msg>
+<status status="PASS" starttime="20200514 11:28:59.576" endtime="20200514 11:28:59.923"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200514 11:28:59.924" endtime="20200514 11:28:59.930"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div[2]/div/input</arg>
+<arg>@{CREDENTIALS}[0]</arg>
+</arguments>
+<msg timestamp="20200514 11:28:59.932" level="INFO">Typing text 'belajarautomation@gmail.com' into text field 'xpath=/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[1]/label/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200514 11:28:59.931" endtime="20200514 11:29:00.372"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div[2]/div/input</arg>
+<arg>&amp;{LOGINDATA}[pass]</arg>
+</arguments>
+<msg timestamp="20200514 11:29:00.373" level="INFO">Typing text 'kjkszpj123456' into text field 'xpath=/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[2]/label/div/div[2]/div/input'.</msg>
+<status status="PASS" starttime="20200514 11:29:00.372" endtime="20200514 11:29:00.545"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200514 11:29:00.546" endtime="20200514 11:29:00.550"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div</arg>
+</arguments>
+<msg timestamp="20200514 11:29:00.551" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/div[2]/main/div/div/form/div/div[3]/div/div'.</msg>
+<status status="PASS" starttime="20200514 11:29:00.551" endtime="20200514 11:29:03.427"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200514 11:29:03.428" endtime="20200514 11:29:03.435"></status>
+</kw>
+<status status="PASS" starttime="20200514 11:28:38.847" endtime="20200514 11:29:03.436"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200514 11:29:03.437" endtime="20200514 11:29:03.442"></status>
+</kw>
+<kw name="komentar" library="resources">
+<kw name="Generate Random String" library="String">
+<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
+<arguments>
+<arg>10</arg>
+<arg>[LETTERS]</arg>
+</arguments>
+<assign>
+<var>${RANTXT}</var>
+</assign>
+<msg timestamp="20200514 11:29:03.445" level="INFO">${RANTXT} = FQotMRlILQ</msg>
+<status status="PASS" starttime="20200514 11:29:03.444" endtime="20200514 11:29:03.446"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>5</arg>
+</arguments>
+<status status="PASS" starttime="20200514 11:29:03.447" endtime="20200514 11:29:03.453"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a/div</arg>
+</arguments>
+<msg timestamp="20200514 11:29:03.455" level="INFO">Clicking element 'xpath=/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a/div'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200514 11:29:08.605" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-47.png"&gt;&lt;img src="selenium-screenshot-47.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200514 11:29:08.466" endtime="20200514 11:29:08.605"></status>
+</kw>
+<msg timestamp="20200514 11:29:08.611" level="FAIL">Element with locator 'xpath=/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a/div' not found.</msg>
+<status status="FAIL" starttime="20200514 11:29:03.454" endtime="20200514 11:29:08.611"></status>
+</kw>
+<status status="FAIL" starttime="20200514 11:29:03.443" endtime="20200514 11:29:08.612"></status>
+</kw>
+<status status="FAIL" starttime="20200514 11:28:38.845" endtime="20200514 11:29:08.612" critical="yes">Element with locator 'xpath=/html/body/div[1]/div/div/div[2]/header/div/div/div/div[1]/div[3]/a/div' not found.</status>
+</test>
+<status status="FAIL" starttime="20200514 11:28:38.401" endtime="20200514 11:29:08.614"></status>
+</suite>
+<status status="FAIL" starttime="20200514 11:28:38.396" endtime="20200514 11:29:08.619"></status>
+</suite>
+<status status="FAIL" starttime="20200514 11:28:38.341" endtime="20200514 11:29:08.623"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Twitter">Twitter</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Testcase">Twitter.Testcase</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="Komentar">Twitter.Testcase.Komentar</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

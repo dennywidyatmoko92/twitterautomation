@@ -1,0 +1,51 @@
+1589361436043	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\win7\\AppData\\Local\\Temp\\rust_mozprofileprhZ14"
+1589361436815	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589361436871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589361436871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589361436871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589361436872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1589361440992	Marionette	INFO	Listening on port 56537
+1589361441476	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/explore, line 148: ChunkLoadError: Loading chunk 287 failed.
+(error: https://abs.twimg.com/responsive-web/web/ondemand.emoji.id.665b1c04.js)
+JavaScript error: https://abs.twimg.com/responsive-web/web/vendors~main.93a9dde4.js, line 57: Error: invariant(...): Second argument must be a string.
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+JavaScript error: https://abs.twimg.com/responsive-web/web/bundle.RichTextCompose.b8d9d374.js, line 9: Error: Got unexpected null or undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1589363346943	Marionette	INFO	Stopped listening on port 56537
