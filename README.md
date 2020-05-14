@@ -51,3 +51,5 @@ alamat email yang digunakan akun belajarautomat1 ini adalah belajarautomation@gm
 
 2. directory gambar yang ingin diupload bisa disesuaikan dengan mengedit file "resouces.resource" pada baris 
 > ${AddFile}    C:\\Users\\win7\\Videos\\gambar.png
+
+3. Login terkadang gagal karena ketika masuk ke halaman ini maka button login berpindah-pindah tempat, login akan berhasil jika button Login berada di atas ketika masuk ke halaman http://twitter.com/explore
