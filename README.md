@@ -1,4 +1,4 @@
-twitterautomation
+# Automation Test Login dan Tweet dengan gambar
 pada project ini dijalankan pada sistem operasi Windows 7, test automation ini menggunakan robotframework dan menggunakan library Selenium Library
 
 # Software yang perlu di install
