@@ -42,5 +42,7 @@ setelah selesai menjalankan test maka akan menghasilkan report "log.html" yang b
 
 # Note
 1. Terkadang login tidak berhasil sampai home karena twitter mendeteksi aktivitas yang mencurigakan, jadi diusahakan memakai akun baru atau jangan memakai akun yang berulang. Jika ingin mengganti akun maka bisa mengedit di file "resources.resource"
+> @{CREDENTIALS}  belajarautomat1    kjkszpj123456
+> &{LOGINDATA}    username=belajarautomat1   pass=kjkszpj123456
 2. directory gambar yang ingin diupload bisa disesuaikan dengan mengedit file "resouces.resource" pada baris 
 > ${AddFile}    C:\\Users\\win7\\Videos\\gambar.png
