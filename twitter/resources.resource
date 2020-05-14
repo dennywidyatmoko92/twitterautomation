@@ -29,7 +29,7 @@ komentar
     Input Text    xpath=/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div[3]/div/div/div/div[1]/div/div/div/div/div[2]/div[1]/div/div/div/div/div/div/div/div/div/div[1]/div/div/div/div[2]/div    ${RANTXT}
     Set Browser Implicit Wait    5
     Choose File    xpath=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/input[1]    ${AddFile}
-    Set Browser Implicit Wait    5       
+    Set Browser Implicit Wait    7       
     Click Element    xpath=/html/body/div[1]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div[3]/div/div/div/div[1]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[4]/div
-    Set Browser Implicit Wait    5
+    Set Browser Implicit Wait    7
         

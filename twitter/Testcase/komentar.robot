@@ -7,5 +7,5 @@ cobakomentar
     Login
     Set Browser Implicit Wait    5
     komentar
-    Sleep    5 
+    Sleep    5
     Close All Browsers   

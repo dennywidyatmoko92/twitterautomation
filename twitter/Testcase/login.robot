@@ -6,7 +6,7 @@ Resource    ../resources.resource
 LoginTwitter
     Login
     Log    sukses login    
-    Sleep    3    
+    Sleep    4    
     Close All Browsers
         
 
