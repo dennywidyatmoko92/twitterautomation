@@ -44,4 +44,4 @@ setelah selesai menjalankan test maka akan menghasilkan report "log.html" yang b
 1. Terkadang login tidak berhasil sampai home karena twitter mendeteksi aktivitas yang mencurigakan, jadi diusahakan memakai akun baru atau jangan memakai akun yang berulang. Jika ingin mengganti akun maka bisa mengedit di file "resources.resource"
 2. directory gambar yang ingin diupload bisa disesuaikan dengan mengedit file "resouces.resource" pada baris 
 > ${AddFile}    C:\\Users\\win7\\Videos\\gambar.png
-direktori disesuaikan file yang ada di komputer / laptop anda
+# direktori disesuaikan file yang ada di komputer / laptop anda
