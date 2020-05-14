@@ -5,8 +5,8 @@ Library    String
 *** Variables ***
 ${Browser}    Firefox
 ${URL}    https://twitter.com/explore
-@{CREDENTIALS}  belajarautomation@gmail.com    kjkszpj123456
-&{LOGINDATA}    username=belajarautomation@gmail.com   pass=kjkszpj123456
+@{CREDENTIALS}  belajarautomat1    kjkszpj123456
+&{LOGINDATA}    username=belajarautomat1   pass=kjkszpj123456
 ${AddFile}    C:\\Users\\win7\\Videos\\gambar.png
 
 *** Keywords ***
