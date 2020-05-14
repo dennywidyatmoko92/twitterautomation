@@ -47,5 +47,7 @@ setelah selesai menjalankan test maka akan menghasilkan report "log.html" yang b
 
 > &{LOGINDATA}    username=belajarautomat1   pass=kjkszpj123456
 
+alamat email yang digunakan akun belajarautomat1 ini adalah belajarautomation@gmail.com , bisa di ganti dengan memasukkan alamat email pada akun, karena terkadang twitter meminta email untuk login
+
 2. directory gambar yang ingin diupload bisa disesuaikan dengan mengedit file "resouces.resource" pada baris 
 > ${AddFile}    C:\\Users\\win7\\Videos\\gambar.png
