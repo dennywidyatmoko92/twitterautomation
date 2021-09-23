@@ -11,7 +11,7 @@ https://www.python.org/downloads/windows/
 > pip install robotframework==3.1.2
 
 3 ) install selenium Library versi 4.3.0
-> robotframework-seleniumlibrary==4.3.0
+>pip install robotframework-seleniumlibrary==4.3.0
 
 # Cara Menjalankan source code
 masuk ke directory pada Testcase
